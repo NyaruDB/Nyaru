@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to Nyaru's Official Github Repository 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-2.0.2-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-3.4.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/NyaruDB/bot#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
