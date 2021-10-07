@@ -1,31 +1,41 @@
----
 name: Bug report
-about: Create a report to help us improve
-title: "[BUG]"
-labels: bug
-assignees: ''
+description: Report incorrect or unexpected behavior of Nyaru
+labels: [bug, need repro]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use Discord for questions: https://go.nyaru.xyz
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue description
+      description: |
+        Describe the issue in as much detail as possible.
 
----
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behaviour:
-1. Do the command '...'
-2. Do this '....'
-3. See error
-
-**Expected behaviour**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Discord Client Info (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Client [e.g. Desktop, Web]
-
-**Additional context**
-Add any other context about the problem here.
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files into it.
+      placeholder: |
+        Steps to reproduce with below sample:
+        1. do thing x,
+        2. do thing in app client,
+        3. observe behavior,
+        4. expected y to happen, but z happened,
+        5. attach the behavior of nyaru
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Client Info
+      description: Which OS does your application run on? What is your discord version?
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority this issue should have
+      description: Please be realistic. If you need to elaborate on your reasoning, please use the Issue description field above.
+      options:
+        - Low (slightly annoying)
+        - Medium (should be fixed soon)
+        - High (immediate attention needed)
+    validations:
+      required: true
