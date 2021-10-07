@@ -1,3 +1,4 @@
+---
 name: Bug report
 description: Report incorrect or unexpected behavior of Nyaru
 labels: [bug, need repro]
