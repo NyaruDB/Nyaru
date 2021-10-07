@@ -1,9 +1,7 @@
----
 name: Bug report
-about: Report incorrect or unexpected behavior of Nyaru
+description: Report incorrect or unexpected behavior of Nyaru
 labels: [bug, need repro]
-
----
+body:
   - type: markdown
     attributes:
       value: |
