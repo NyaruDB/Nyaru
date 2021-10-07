@@ -4,7 +4,6 @@ about: Report incorrect or unexpected behavior of Nyaru
 labels: [bug, need repro]
 
 ---
-body:
   - type: markdown
     attributes:
       value: |
