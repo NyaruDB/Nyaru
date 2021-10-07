@@ -28,6 +28,8 @@ body:
     attributes:
       label: Client Info
       description: Which OS does your application run on? What is your discord version?
+    validations:
+      required: true
   - type: dropdown
     id: priority
     attributes:
@@ -37,5 +39,12 @@ body:
         - Low (slightly annoying)
         - Medium (should be fixed soon)
         - High (immediate attention needed)
+    validations:
+      required: true
+  - type: input
+    id: comments
+    attributes:
+      label: Related Comments
+      description: Please describe everything else in your mind related to the issue.
     validations:
       required: true
